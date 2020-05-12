@@ -200,6 +200,8 @@ GameObject:
   - component: {fileID: 520286464390927019}
   - component: {fileID: 520286464390927018}
   - component: {fileID: 621097541372514847}
+  - component: {fileID: 1184398544}
+  - component: {fileID: 1184398550}
   m_Layer: 0
   m_Name: CharacterPrefab
   m_TagString: Untagged
@@ -301,6 +303,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 2
+--- !u!114 &1184398544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520286464390927021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7d15d1324c5d347b1d5d46fe4f381e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1184398550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520286464390927021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a116a6b2e6ba154391d1a695ea81d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  rotateSpeed: 15
+  rotateTowardsMouse: 0
+  camera: {fileID: 0}
 --- !u!1 &520286464685432543
 GameObject:
   m_ObjectHideFlags: 0
